@@ -1,0 +1,11 @@
+{
+  "manifest_version": 3,
+  "name": "aws-multi-session-boost",
+  "version": "0.1.0",
+  "content_scripts": [
+    {
+      "js": ["script.js"],
+      "matches": ["https://*.console.aws.amazon.com/*"]
+    }
+  ]
+}
